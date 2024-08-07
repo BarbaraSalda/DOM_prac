@@ -40,7 +40,7 @@
             });
         }
 
-        function createUserCard(user) {//se se resive un user y se devuelve un div que es la tarjeta del usuario
+        function createUserCard(user) {//se recibe un user y se devuelve un div que es la tarjeta del usuario
             const card = document.createElement('div');//el div para la tarjeta
            
             const userName = document.createElement('h2');// Se crea h2 para el nombre del usuario y establece su texto.
